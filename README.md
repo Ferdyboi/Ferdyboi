@@ -1,6 +1,6 @@
 ### \***\*Creating the Database Table\*\***
 
-Create a table named *tripsph* inside your MySQL database using the following code.
+Create a table named *trips* inside your MySQL database using the following code.
 
 import the tripsph.sql from C:\xampp\htdocs\TripsPH_Dashboard\assets\db\tripsph.sql to the sql section
 
@@ -15,10 +15,10 @@ User == Password
 
 File/Folder ==== Description
 Index.php ==== This is a login page
-Dashboard.php ===== After successful login, User will land on this page.
-Assets Folder ==== This folder has css, js, bootstarp and plugins file
-Inc Folder ==== This folder has config.php file in which there is a database connection and getUserAccessRoleByID() function.
-Layouts Folder ==== This folder has 3 files footer.php, header,left_sidebar.php. ==== I split static content of admin template in these files.
+Dashboard.php ===== After successful login, the User will land on this page.
+Assets Folder ==== This folder has css, js, bootstrap and plugins file
+Inc Folder ==== This folder has a config.php file in which there is a database connection and getUserAccessRoleByID() function.
+Layouts Folder ==== This folder has 3 files footer.php, header,left_sidebar.php. ==== I split the static content of the admin template in these files.
 
 Update:
 edit profile for who is signed in only
